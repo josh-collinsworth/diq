@@ -1,7 +1,7 @@
 :root {
   --font-fallback: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  --font-body: 'IBM Plex Sans', var(--font-fallback);
-  --font-mono: 'IBM Plex Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+  --font-body: 'Crimson Text', var(--font-fallback);
+  --font-mono: 'Crimson Text', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
     'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
 
   --color-white: #fff;
@@ -95,7 +95,7 @@ body {
   min-height: 100vh;
   font-family: var(--font-body);
   font-size: 1rem;
-  font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+  font-size: clamp(1rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.25rem);
   line-height: 1.625;
 }
 
@@ -104,6 +104,31 @@ body {
   display: grid;
   --gutter: 0.5rem;
   --doc-padding: 2rem;
+}
+
+main {
+  width: 100%;
+  max-width: 40rem;
+  margin: auto;
+
+  img {
+    width: 100%;
+
+    @media (min-width: 44rem) {
+      width: calc(100% + 8rem);
+      margin-left: -4rem;
+    }
+
+    @media (min-width: 56rem) {
+      width: calc(100% + 16rem);
+      margin-left: -8rem;
+    }
+
+    @media (min-width: 64rem) {
+      width: calc(100% + 24rem);
+      margin-left: -12rem;
+    }
+  }
 }
 
 .layout {
