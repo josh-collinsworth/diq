@@ -1,5 +1,5 @@
 ---
-title: "The Cover of <i>Time</i>"
+title: "The Cover of Time"
 date: "2015-06-28"
 layout: '../../layouts/BlogPost.astro'
 categories: 

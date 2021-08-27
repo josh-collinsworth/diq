@@ -3,6 +3,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import BlogHeader from '../components/BlogHeader.astro';
 import BlogPostPreview from '../components/BlogPostPreview.astro';
+import Sidebar from '../components/Sidebar.astro';
 
 
 // Component Script:
@@ -10,7 +11,7 @@ import BlogPostPreview from '../components/BlogPostPreview.astro';
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
 let title = 'Design in Quotes';
-let permalink = 'https://example.com/';
+let permalink = 'https://designinquotes.com/';
 
 // Data Fetching: List all Markdown posts in the repo.
 let allPosts = Astro.fetchContent('./posts/*.md');
@@ -23,7 +24,7 @@ allPosts = allPosts.sort((a, b) => new Date(a.date) - new Date(b.date));
   <head>
     <BaseHead title={title} permalink={permalink} />
     <link rel="stylesheet" href="/blog.css" />
-
+    
     <style>
       body {
         width: 100%;
@@ -63,7 +64,7 @@ allPosts = allPosts.sort((a, b) => new Date(a.date) - new Date(b.date));
 
       .latest {
         font-size: 2.5rem;
-        font-weight: 700;
+        font-style: italic;
       }
     </style>
   </head>
@@ -73,11 +74,11 @@ allPosts = allPosts.sort((a, b) => new Date(a.date) - new Date(b.date));
       <BlogHeader />
       <div class="layout">
         <article class="content">
-          <section class="intro">
+          <!-- <section class="intro">
             <h1 class="latest">{title}</h1>
-          </section>
+          </section> -->
           <section>
-            {allPosts.map(p => <BlogPostPreview post={p} />)}
+            {allPosts.map((post, i) => <BlogPostPreview post={post} number={i + 1} />)}
           </section>
         </article>
       </div>

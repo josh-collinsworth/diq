@@ -2,13 +2,14 @@
   <article>
     <h1>
       <a href="/">
-        Design in Quotes
+        <img src="/assets/images/Design-in-Quotes-HEX.png" alt="">
+        <!-- Design in Quotes -->
       </a>
     </h1>
   </article>
 </header>
 
-<style>
+<style lang="scss">
 header {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -45,11 +46,19 @@ article {
 
 h1 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   max-width: 100%;
+  font-weight: normal;
+  font-style: italic;
   display: flex;
   flex-grow: 1;
   text-align: center;
+
+  a {
+    color: inherit;
+    text-decoration: underline !important;
+    text-decoration-color: var(--color-gray-200);
+  }
 }
 
 .logo {
