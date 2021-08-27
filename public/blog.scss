@@ -278,6 +278,11 @@ pre {
     border-radius: 8px;
   }
 }
+.caption {
+  font-style: italic;
+  font-size: 80%;
+  margin: 2em 0;
+}
 
 .flex {
   display: flex;
@@ -335,7 +340,6 @@ p.eyem-1 {
   display: block;
   padding-top: .4em;
   cursor: pointer;
-  font-weight: 700;
 }
 
 .eyem-fadein {

@@ -1,6 +1,7 @@
 ---
 title: "Everything That August Left Behind"
 date: "2015-03-23"
+layout: "../../layouts/BlogPost.astro"
 categories: 
   - "animation"
   - "design"
