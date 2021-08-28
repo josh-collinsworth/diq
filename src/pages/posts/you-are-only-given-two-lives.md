@@ -24,3 +24,14 @@ The tragedy and the beauty of life is it’s rarely the regret you expect to fee
 You are only given two lives; the best one begins when you realize it’s the only one.
 
 ![Week-38-Icons4](/assets/images/Week-38-Icons4.jpg)
+
+<style>
+img {
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
+</style>

@@ -106,7 +106,7 @@ p.atm-line.atm_p2-l8 {
   position: relative;
   left: 6.4em;
   top: 2.5em;
-  margin-bottom: 18em;
+  margin-bottom: 12em;
   font-size: 18px!important;
   font-weight: bold;
   max-width: 65%;

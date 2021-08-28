@@ -14,8 +14,28 @@ categories:
   <img src="/assets/images/Week-24.jpg" alt="">
   <img src="/assets/images/Week-24a.jpg" alt="">
   <div class="spacer"></div>
-  <p>steady glow of the moon<br />veiled by clouds of tonight<br />you are how I feel</p>
-  <p>do you even notice us crowded poets<br />slaving to describe you<br />in ways abstract and beautiful<br />so recent our arrival<br />and the vapors of our ecosystem<br />not the only clouds<br />over our heads<br />we too go largely unnoticed<br />except by the things we orbit<br />the universe is us<br />and let us never forget<br />as we pen our sonnets about the stars<br />that beautiful as the night is<br />between the clouds<br />there is even more starlight during the day<br />although it too<br />must sometimes struggle<br />through the clouds</p>
+  <p>steady glow of the moon
+  <br />veiled by clouds of tonight
+  <br />you are how I feel</p>
+  <br>
+  <p>do you even notice us crowded poets
+  <br />slaving to describe you
+  <br />in ways abstract and beautiful
+  <br />so recent our arrival
+  <br />and the vapors of our ecosystem
+  <br />not the only clouds
+  <br />over our heads
+  <br />we too go largely unnoticed
+  <br />except by the things we orbit
+  <br />the universe is us
+  <br />and let us never forget
+  <br />as we pen our sonnets about the stars
+  <br />that beautiful as the night is
+  <br />between the clouds
+  <br />there is even more starlight during the day
+  <br />although it too
+  <br />must sometimes struggle
+  <br />through the clouds</p>
   <div class="spacer"></div>
 </div>
 
@@ -32,6 +52,14 @@ categories:
     position: relative;
     overflow: hidden;
     width: 100%;
+  }
+
+  @media (min-width: 1080px) {
+    #week-24-bg {
+      width: calc(100% + 20rem);
+      margin-left: -10rem;
+      min-height: 66rem;
+    }
   }
 
   #week-24-bg p {

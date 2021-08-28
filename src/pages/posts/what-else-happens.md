@@ -108,7 +108,7 @@ _
 
 #weh::after {
   content: "";
-  background-image: url("/images/water-damage.jpg");
+  background-image: url("/assets/images/water-damage.jpg");
   background-size: 100% 100%;
   opacity: 0.2;
   top: 0;

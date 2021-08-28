@@ -18,8 +18,8 @@
   --color-gray-800: #1f2937;
   --color-gray-900: #111827;
 
-  --color-blue: #3894ff;
-  --color-blue-rgb: 56, 148, 255;
+  --color-blue: #7ba7bc;
+  --color-blue-rgb: 123, 167, 188;
   --color-green: #17c083;
   --color-green-rgb: 23, 192, 131;
   --color-orange: #ff5d01;
@@ -34,8 +34,8 @@
 
 :root {
   color-scheme: light;
-  --theme-accent: var(--color-orange);
-  --theme-accent-rgb: var(--color-orange-rgb);
+  --theme-accent: var(--color-blue);
+  --theme-accent-rgb: var(--color-blue-rgb);
   --theme-accent-opacity: 0.1;
   --theme-divider: var(--color-gray-100);
   --theme-text: var(--color-gray-800);
@@ -132,8 +132,8 @@ header.layout {
   margin-bottom: 4rem;
 
   img {
-    width: 18rem;
-    margin: 0 0 4rem;
+    width: 4rem;
+    margin: 2rem 0 4rem;
   }
 }
 
@@ -221,8 +221,11 @@ a:focus {
 }
 
 a:focus {
-  outline: 2px solid currentColor;
+  outline: 2px solid rgba(172, 234, 244);
   outline-offset: 0.25em;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(172, 234, 244);
+  background: rgba(172, 234, 244);
 }
 
 strong {

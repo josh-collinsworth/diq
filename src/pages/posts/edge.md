@@ -30,5 +30,3 @@ Her smile then wasn't what I thought it would be, gentle and more than a little 
 "Being in love with living IS being in love with dying," she said.
 
 Then she stepped off the edge.
-
-— (_If you're viewing on a tablet or desktop and would like to see an alternate dynamic version of this illustration, please [click here](/edgealt)._)
