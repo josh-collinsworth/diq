@@ -10,7 +10,7 @@ categories:
   - "poem"
 ---
 
-<div id="parallax-holder">
+<div id="parallax-holder" aria-hidden="true" role="img" alt="">
   <img class="heart-bubble" src="/assets/images/heartbubble.png" alt="" /><br /><img class="zom-layer-one" src="/assets/images/Front-Layer.png" alt="" /><br /><img class="zom-layer-two" src="/assets/images/Second-Layer.png" alt="" /><br /><img class="zom-layer-three" src="/assets/images/Third-Layer.png" alt="" />
 
   <h4 class="braintext btx1">Don't let them eat your brains</h4>
@@ -28,8 +28,9 @@ categories:
 #parallax-holder {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 1px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 52vw;
     padding: 26% 0;
     background-color: #15153E;
     background-image: url('/assets/images/Back-Layer.png');
@@ -43,6 +44,9 @@ categories:
 
 @media (min-width: 960px) {
   #parallax-holder {
+    height: 1px;
+    width: 100%;
+    margin-left: 0;
     transform: scale(1.4);
     transform-origin: top;
     margin-bottom: 8rem;
@@ -52,7 +56,6 @@ categories:
 @media (min-width: 1200px) {
   #parallax-holder {
     transform: scale(1.6);
-    transform-origin: top;
     margin-bottom: 13rem;
   }
 }
@@ -60,7 +63,6 @@ categories:
 @media (min-width: 1600px) {
   #parallax-holder {
     transform: scale(1.8);
-    transform-origin: top;
     margin-bottom: 16rem;
   }
 }
@@ -135,6 +137,12 @@ categories:
     opacity: 0;
     animation-fill-mode: forwards;
     background-color: rgba(0,0,0,.4);
+}
+
+@media (min-width: 960px) {
+  .braintext {
+    font-size: 0.9rem;
+  }
 }
 
 .btx1 {

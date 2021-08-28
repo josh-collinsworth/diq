@@ -1,0 +1,21 @@
+<footer>
+  <p>&copy; 2014–2021</p>
+  <script>
+    const allImages = document.querySelectorAll('img[src]');
+
+    allImages.forEach(img => {
+      img.addEventListener('click', (e) => {
+        window.location = e.target.src
+      })
+    })
+  </script>
+</footer>
+
+<style lang="scss">
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 5rem;
+  text-align: center;
+}
+</style>

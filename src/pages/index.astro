@@ -78,7 +78,9 @@ allPosts = allPosts.sort((a, b) => new Date(a.date) - new Date(b.date));
             <h1 class="latest">{title}</h1>
           </section> -->
           <section>
-            {allPosts.map((post, i) => <BlogPostPreview post={post} number={i + 1} />)}
+            <ol>
+              {allPosts.map((post, i) => <li><BlogPostPreview post={post} /></li>)}
+            </ol>
           </section>
         </article>
       </div>

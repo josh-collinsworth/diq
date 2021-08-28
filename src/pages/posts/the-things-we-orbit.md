@@ -39,7 +39,7 @@ categories:
   <div class="spacer"></div>
 </div>
 
-<h6 class="caption">Original source photo credit <a href="http://flickr.com/kylerichner" target="_blank" rel="noopener">Kyle Richner</a> via <a href="http://unsplash.com" target="_blank" rel="noopener">Unsplash.com</a></h6>
+<p class="caption">Original source photo credit <a href="http://flickr.com/kylerichner" target="_blank" rel="noopener">Kyle Richner</a> via <a href="http://unsplash.com" target="_blank" rel="noopener">Unsplash.com</a></p>
 
 
 <style>
@@ -51,7 +51,15 @@ categories:
     transition: background 4s ease;
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+
+  @media (min-width: 640px) {
+      #week-24-bg {
+      width: 100%;
+      margin-left: 0;
+    }
   }
 
   @media (min-width: 1080px) {

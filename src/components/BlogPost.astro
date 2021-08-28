@@ -11,16 +11,27 @@ const { title, date, alt } = Astro.props;
   <article class="content">
   <div>
     <header>
-      <p class="publish-date">{date}</p>
       <h1 class="title">{title}</h1>
+      <p class="publish-date">{date}</p>
     </header>
     <main>
       <slot />
 
       <hr>
-      <a href="/">
-        Back to post list
+
+      <a id="back-btn" href="/" onclick="goBack()">
+        &lsaquo; Back to post list
       </a>
+
+      <script>
+        const backBtn = document.querySelector('#back-btn');
+
+        backBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          window.history.back(-1);
+        })
+      </script>
+
     </main>
   </article>
 </div>
@@ -76,12 +87,13 @@ header {
 .title,
 .author,
 .publish-date {
-  margin: 0;
+  margin: .25rem 0 0;
 }
 
 .publish-date,
 .author {
   color: var(--theme-text-lighter);
+  font-style: italic;
 }
 
 .title {
