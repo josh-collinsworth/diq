@@ -25,18 +25,21 @@ const { title, date, alt, categories, number } = Astro.props;
 
       <hr>
 
-      <a id="back-btn" href="/" onclick="goBack()">
-        &lsaquo; Back to post list
-      </a>
+      <nav id="post-nav">
+        { number > 1
+          ? <a href={`/posts/${number - 1}`}>&lsaquo; Previous post</a>
+          : <span />
+        }
 
-      <script>
-        const backBtn = document.querySelector('#back-btn');
+        <a id="back-btn" href="/">
+          Back to post list
+        </a>
 
-        backBtn.addEventListener('click', (e) => {
-          e.preventDefault();
-          window.history.back(-1);
-        })
-      </script>
+        { (number !== 52)
+          ? <a href={`/posts/${number + 1}`}>Next post &rsaquo;</a>
+          : <span />
+        }
+      </nav>
 
     </main>
   </article>
@@ -87,6 +90,11 @@ header {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom: 4px solid var(--theme-divider);
+}
+
+#post-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .title,
