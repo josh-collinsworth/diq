@@ -1,7 +1,8 @@
 ---
 title: "The Edge"
 date: "2014-12-22"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 2
 categories: 
   - "illustration"
   - "short-story"

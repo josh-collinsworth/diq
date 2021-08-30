@@ -1,7 +1,8 @@
 ---
 title: "Courageous"
 date: "2015-06-14"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 27
 categories: 
   - "illustration"
   - "poem"

@@ -1,7 +1,8 @@
 ---
 title: "The Produce Sections of America"
 date: "2015-04-19"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 19
 categories: 
   - "micahs-favorite"
   - "photo"

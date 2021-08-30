@@ -1,7 +1,8 @@
 ---
 title: "All the Other Ways That You Can Be Kissed"
 date: "2015-05-04"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 21
 categories: 
   - "illustration"
   - "photo"

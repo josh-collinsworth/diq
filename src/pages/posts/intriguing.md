@@ -1,7 +1,8 @@
 ---
 title: "Intriguing"
 date: "2015-07-06"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 30
 categories: 
   - "illustration"
   - "photo"

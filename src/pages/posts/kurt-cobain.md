@@ -1,7 +1,8 @@
 ---
 title: "Kurt Cobain"
 date: "2015-07-19"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 32
 categories: 
   - "illustration"
   - "poem"

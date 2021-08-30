@@ -1,7 +1,8 @@
 ---
 title: "Everything Else in Life"
 date: "2015-05-17"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 23
 categories: 
   - "illustration"
   - "short-story"

@@ -1,7 +1,8 @@
 ---
 title: "Feety Pajamas"
 date: "2015-10-11"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 42
 categories: 
   - "humorous"
   - "illustration"

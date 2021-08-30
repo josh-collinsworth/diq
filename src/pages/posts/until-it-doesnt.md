@@ -1,7 +1,8 @@
 ---
 title: "Until it Doesn't"
 date: "2015-10-11"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 43
 categories: 
   - "illustration"
   - "micahs-favorite"

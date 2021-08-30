@@ -1,7 +1,8 @@
 ---
 title: "What Else Happens"
 date: "2015-03-15"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 14
 categories: 
   - "animation"
   - "design"

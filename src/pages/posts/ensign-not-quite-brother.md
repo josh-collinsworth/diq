@@ -1,7 +1,8 @@
 ---
 title: "Ensign Not-Quite-My-Brother"
 date: "2015-01-04"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 4
 categories: 
   - "illustration"
   - "joshs-favorite"

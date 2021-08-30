@@ -1,7 +1,8 @@
 ---
 title: "Tornado Alley and the 22 Word Challenge"
 date: "2015-04-05"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 17
 categories: 
   - "photo"
   - "poem"

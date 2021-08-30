@@ -1,7 +1,8 @@
 ---
 title: "Winter, Part 3: <br />Silent and Serene"
 date: "2015-02-23"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 11
 categories: 
   - "illustration"
   - "poem"

@@ -1,7 +1,8 @@
 ---
 title: "Good Businessman"
 date: "2015-05-10"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 22
 categories: 
   - "illustration"
   - "poem"

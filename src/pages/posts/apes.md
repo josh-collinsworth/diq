@@ -1,7 +1,8 @@
 ---
 title: "We're All Just Apes"
 date: "2015-06-22"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 28
 categories: 
   - "illustration"
   - "micahs-favorite"

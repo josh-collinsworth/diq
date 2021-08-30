@@ -1,7 +1,8 @@
 ---
 title: "You Are Only Given Two Lives"
 date: "2015-09-14"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 39
 categories: 
   - "joshs-favorite"
   - "micahs-favorite"

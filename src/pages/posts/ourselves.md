@@ -1,7 +1,8 @@
 ---
 title: "Ourselves"
 date: "2015-10-21"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 44
 categories: 
   - "illustration"
   - "poem"

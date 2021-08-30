@@ -1,7 +1,8 @@
 ---
 title: "The Things We Orbit"
 date: "2015-05-25"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 24
 categories: 
   - "design"
   - "micahs-favorite"

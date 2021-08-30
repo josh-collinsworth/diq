@@ -1,7 +1,8 @@
 ---
 title: "Multicolored Geometric Shapes Without End"
 date: "2015-03-08"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 13
 categories: 
   - "humorous"
   - "illustration"

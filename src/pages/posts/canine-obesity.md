@@ -1,7 +1,8 @@
 ---
 title: "Canine Obesity"
 date: "2014-12-14"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 1
 categories: 
   - "humorous"
   - "illustration"

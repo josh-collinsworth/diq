@@ -1,7 +1,8 @@
 ---
 title: "The Seer"
 date: "2015-03-01"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 12
 categories: 
   - "illustration"
   - "joshs-favorite"

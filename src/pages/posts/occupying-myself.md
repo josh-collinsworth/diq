@@ -1,7 +1,8 @@
 ---
 title: "Occupying Myself"
 date: "2015-04-26"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 20
 categories: 
   - "illustration"
   - "photo"

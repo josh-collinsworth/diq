@@ -2,6 +2,7 @@
 title: "Not Anymore"
 date: "2015-12-16"
 layout: "../../layouts/BlogPost.astro"
+number: 51
 ---
 
 <div class="not-anymore-images">

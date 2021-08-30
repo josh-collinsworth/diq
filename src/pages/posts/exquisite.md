@@ -1,7 +1,8 @@
 ---
 title: "Exquisite"
 date: "2015-11-09"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 47
 categories: 
   - "photo"
   - "poem"

@@ -1,7 +1,8 @@
 ---
 title: "What it Really Means to Be Smart"
 date: "2015-07-12"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 31
 categories: 
   - "design"
   - "humorous"

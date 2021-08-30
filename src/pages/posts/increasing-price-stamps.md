@@ -1,7 +1,8 @@
 ---
 title: "The Increasing Price of Stamps"
 date: "2015-01-25"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 7
 categories: 
   - "illustration"
   - "poem"

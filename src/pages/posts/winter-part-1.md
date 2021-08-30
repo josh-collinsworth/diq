@@ -1,7 +1,8 @@
 ---
 title: "Winter, Part 1: <br>The First Freeze"
 date: "2015-02-08"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 9
 categories: 
   - "illustration"
   - "poem"

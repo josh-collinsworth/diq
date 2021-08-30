@@ -1,7 +1,8 @@
 ---
 title: "The Cover of Time"
 date: "2015-06-28"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 29
 categories: 
   - "illustration"
   - "poem"

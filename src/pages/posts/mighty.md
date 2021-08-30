@@ -1,7 +1,8 @@
 ---
 title: "Mighty"
 date: "2015-09-06"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 38
 categories: 
   - "photo"
   - "poem"

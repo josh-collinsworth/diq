@@ -1,7 +1,8 @@
 ---
 title: "When I Was Growing Old"
 date: "2015-08-10"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 35
 categories: 
   - "illustration"
   - "poem"

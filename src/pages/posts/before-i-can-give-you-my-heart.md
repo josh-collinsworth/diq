@@ -1,7 +1,8 @@
 ---
 title: "Before I Can Give You My Heart"
 date: "2015-07-27"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 33
 categories: 
   - "animation"
   - "humorous"

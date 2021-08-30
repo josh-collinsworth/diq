@@ -1,7 +1,8 @@
 ---
 title: "Strawberry Lemonade"
 date: "2015-04-12"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 18
 categories: 
   - "illustration"
   - "poem"

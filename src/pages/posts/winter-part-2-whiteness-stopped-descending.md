@@ -1,7 +1,8 @@
 ---
 title: "Winter, Part 2: <br>The Whiteness has Stopped Descending"
 date: "2015-02-16"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 10
 categories: 
   - "illustration"
   - "poem"

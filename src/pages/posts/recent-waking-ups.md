@@ -1,7 +1,8 @@
 ---
 title: "Recent Waking Ups"
 date: "2015-03-29"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 16
 categories: 
   - "illustration"
   - "poem"

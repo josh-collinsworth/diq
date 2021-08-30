@@ -1,7 +1,8 @@
 ---
 title: "Two Things"
 date: "2015-08-24"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 37
 categories: 
   - "interactive"
   - "poem"

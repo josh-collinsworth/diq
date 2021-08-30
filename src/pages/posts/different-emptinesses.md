@@ -1,7 +1,8 @@
 ---
 title: "Different Emptinesses"
 date: "2015-01-18"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 6
 categories: 
   - "design"
   - "poem"

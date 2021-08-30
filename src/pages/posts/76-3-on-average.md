@@ -1,7 +1,8 @@
 ---
 title: "76.3 (On Average)"
 date: "2015-08-03"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 34
 categories: 
   - "illustration"
   - "poem"

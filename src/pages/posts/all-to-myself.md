@@ -1,7 +1,8 @@
 ---
 title: "All to Myself"
 date: "2015-08-17"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 36
 categories: 
   - "poem"
   - "typography"

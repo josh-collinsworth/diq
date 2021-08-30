@@ -1,7 +1,8 @@
 ---
 title: "There's No Such Thing as a Syrian"
 date: "2015-12-06"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 50
 categories: 
   - "poem"
 ---
@@ -11,3 +12,10 @@ categories:
 _There’s no such thing as a Syrian; the people clamoring for refuge are not who they claim._
 
 The truth is: there’s no such thing as a Syrian, or a refugee, or a Christian. There are only humans, let there also be humanity.
+
+<style>
+img {
+  width: 100%;
+  margin-left: 0;
+}
+</style>

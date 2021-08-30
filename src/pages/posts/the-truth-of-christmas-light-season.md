@@ -1,7 +1,8 @@
 ---
 title: "The Truth of Christmas Light Season"
 date: "2015-11-02"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 46
 categories: 
   - "illustration"
   - "poem"

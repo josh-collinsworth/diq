@@ -1,7 +1,8 @@
 ---
 title: "The Storms in Your Heart"
 date: "2015-11-17"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 48
 categories: 
   - "photo"
   - "poem"

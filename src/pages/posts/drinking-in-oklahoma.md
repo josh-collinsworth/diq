@@ -1,7 +1,8 @@
 ---
 title: "Drinking in Oklahoma"
 date: "2015-09-20"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 40
 categories: 
   - "illustration"
   - "poem"

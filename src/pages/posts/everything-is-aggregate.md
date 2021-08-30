@@ -1,7 +1,8 @@
 ---
 title: "Everything is Aggregate"
 date: "2015-09-28"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 41
 categories: 
   - "illustration"
 ---

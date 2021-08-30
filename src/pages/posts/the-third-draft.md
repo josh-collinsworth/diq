@@ -1,7 +1,8 @@
 ---
 title: "The Third Draft"
 date: "2015-05-31"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 25
 categories: 
   - "humorous"
   - "illustration"

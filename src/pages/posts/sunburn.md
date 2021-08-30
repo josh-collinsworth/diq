@@ -1,7 +1,8 @@
 ---
 title: "On My Forearms and the Back of My Neck"
 date: "2015-06-08"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 26
 categories: 
   - "illustration"
   - "poem"

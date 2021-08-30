@@ -2,16 +2,22 @@
 export interface Props {
   title: string;
   date: string;
+  alt: string;
+  categories: string|array;
+  number: number;
 }
 
-const { title, date, alt } = Astro.props;
+const { title, date, alt, categories, number } = Astro.props;
 ---
 
 <div class="layout">
   <article class="content">
   <div>
     <header>
-      <h1 class="title">{title}</h1>
+      <h1 class="title">
+        <small>{number}. </small>
+        {title}
+      </h1>
       <p class="publish-date">{date}</p>
     </header>
     <main>
@@ -78,7 +84,6 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
-
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom: 4px solid var(--theme-divider);
@@ -98,5 +103,9 @@ header {
 
 .title {
   font-size: 2.25rem;
+}
+
+.title small {
+  font-size: .6em;
 }
 </style>

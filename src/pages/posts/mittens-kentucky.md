@@ -1,7 +1,8 @@
 ---
 title: "Mittens, Kentucky"
 date: "2014-12-29"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 3
 categories: 
   - "illustration"
   - "joshs-favorite"

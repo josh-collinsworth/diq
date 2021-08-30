@@ -1,7 +1,8 @@
 ---
 title: "The Courage I Will or Will Not Have"
 date: "2015-02-01"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 8
 categories: 
   - "illustration"
   - "joshs-favorite"

@@ -8,7 +8,7 @@ import Sidebar from '../components/Sidebar.astro';
 
 const {content} = Astro.props;
 
-const {title, description, date, permalink, alt} = content;
+const {title, description, date, permalink, alt, categories, number} = content;
 ---
 <html lang={ content.lang || 'en' }>
   <head>
@@ -18,7 +18,7 @@ const {title, description, date, permalink, alt} = content;
   <body>
     <main>
       <BlogHeader />
-      <BlogPost title={title} date={date} alt={alt}>
+      <BlogPost title={title} date={date} alt={alt} categories={categories} number={number}>
         <slot />
       </BlogPost>
       <BlogFooter />

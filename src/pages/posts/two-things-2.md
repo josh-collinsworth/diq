@@ -1,7 +1,8 @@
 ---
 title: "Two Things You Must Do to Be Happy"
 date: "2015-10-25"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 45
 ---
 
 ![A very young boy sits with an anchor floating by a balloon string above him](/assets/images/Week-44.jpg)

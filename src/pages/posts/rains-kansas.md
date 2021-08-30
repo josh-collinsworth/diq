@@ -1,7 +1,8 @@
 ---
 title: "The Rains of Kansas"
 date: "2015-01-11"
-layout: '../../layouts/BlogPost.astro'
+layout: "../../layouts/BlogPost.astro"
+number: 5
 categories: 
   - "illustration"
   - "joshs-favorite"
