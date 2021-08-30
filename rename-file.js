@@ -10,7 +10,7 @@ try {
       const data = fs.readFileSync(`./src/pages/posts/${file}`, 'utf8')
       
       const number = data.match(/number: ([0-9]+)/)[1]
-      console.log(file)
+      console.log(number)
     })
   })
 }
